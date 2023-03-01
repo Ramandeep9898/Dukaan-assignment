@@ -1,0 +1,47 @@
+.btn {
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: galanogrotesque regular;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-ghost {
+  color: var(--primary);
+  background-color: var(--white);
+}
+.btn-link {
+  padding: 0px;
+  background-color: transparent;
+  color: var(--white);
+}
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.btn-outline {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background-color: var(--white);
+  font-size: 14px;
+}
+.btn-pagination {
+  padding: 2px 9px;
+  color: var(--primary);
+  font-size: 15px;
+  font-family: galanogrotesque regular;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-pagination-active {
+  padding: 2px 9px;
+  font-size: 15px;
+  font-family: galanogrotesque regular;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  background-color: var(--primary);
+  cursor: pointer;
+  color: var(--white);
+}
