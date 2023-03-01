@@ -24,13 +24,12 @@ const Slogan = ({ slogan }) => {
       onMouseLeave={mouseOut}
       onClick={() => onClickHandler(slogan.slogan)}
     >
-      <div className="slogan">{slogan.slogan}</div>
+      <p className="slogan">{slogan.slogan}</p>
       {mouseOnslogan && (
         <div className="caption">
           <span>{caption}</span>
         </div>
       )}
-      {/* <div className="caption">{caption}</div> */}
     </div>
   );
 };

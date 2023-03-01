@@ -5,10 +5,12 @@
   font-family: galanogrotesque regular;
   border-radius: 4px;
   cursor: pointer;
+  line-height: 26px;
 }
 .btn-ghost {
   color: var(--primary);
   background-color: var(--white);
+  font-family: galanogrotesque medium;
 }
 .btn-link {
   padding: 0px;
@@ -16,19 +18,23 @@
   color: var(--white);
 }
 .btn-primary {
+  font-family: galanogrotesque medium;
   background-color: var(--primary);
   color: var(--white);
 }
 .btn-outline {
+  font-family: galanogrotesque medium;
   border: 1px solid var(--primary);
   color: var(--primary);
   background-color: var(--white);
   font-size: 14px;
+  line-height: 20px;
 }
 .btn-pagination {
-  padding: 2px 9px;
   color: var(--primary);
-  font-size: 15px;
+
+  font-size: 14px;
+  line-height: 20px;
   font-family: galanogrotesque regular;
   border: none;
   background-color: transparent;
@@ -36,10 +42,10 @@
 }
 .btn-pagination-active {
   padding: 2px 9px;
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 20px;
   font-family: galanogrotesque regular;
   border: none;
-  background-color: transparent;
   border-radius: 50%;
   background-color: var(--primary);
   cursor: pointer;

@@ -4,11 +4,13 @@
 }
 .feature-heading {
   color: var(--heading);
-  font-size: 18px;
-  font-family: galanogrotesque semibold;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: galanogrotesque medium;
+  font-weight: 400;
 }
 .feature-subheading {
-  color: var(--paragraph);
+  color: var(--grey);
   font-size: 16px;
   font-family: galanogrotesque regular;
   text-align: center;

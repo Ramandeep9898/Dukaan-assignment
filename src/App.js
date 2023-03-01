@@ -1,9 +1,9 @@
 import "./App.css";
-import { Header } from "./components/header/Header";
+import { Header } from "./components/Header/Header";
 import { Main } from "./components/main/Main";
-import { Feature } from "./components/features/Feature.jsx";
-import { Product } from "./components/products/Product";
-import { Footer } from "./components/footer/Footer";
+import { Feature } from "./components/Features/Feature.jsx";
+import { Product } from "./components/Products/Product";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (

@@ -11,43 +11,42 @@ export const Footer = () => {
             <img src={logo} alt="dukaan logo" />
           </div>
           <ul className="footer-list">
-            <div className="footer-list-item">Contact</div>
-            <div className="footer-list-item">FAQ's</div>
+            <li className="footer-list-item">Contact</li>
+            <li className="footer-list-item">FAQ's</li>
           </ul>
 
           <ul className="footer-list">
-            <div className="footer-list-item">Tutorials</div>
-            <div className="footer-list-item">Blog</div>
+            <li className="footer-list-item">Tutorials</li>
+            <li className="footer-list-item">Blog</li>
           </ul>
 
           <ul className="footer-list">
-            <div className="footer-list-item">Privacy</div>
-            <div className="footer-list-item">Banned Items</div>
+            <li className="footer-list-item">Privacy</li>
+            <li className="footer-list-item">Banned Items</li>
           </ul>
 
           <ul className="footer-list">
-            <div className="footer-list-item">About</div>
-            <div className="footer-list-item ">
+            <li className="footer-list-item">About</li>
+            <li className="footer-list-item ">
               Jobs
               <div className="counter">3</div>
-            </div>
+            </li>
           </ul>
 
           <ul className="footer-list">
-            <div className="footer-list-item">Facebook</div>
-            <div className="footer-list-item">Twitter </div>
-            <div className="footer-list-item">Linkedin</div>
+            <li className="footer-list-item">Facebook</li>
+            <li className="footer-list-item">Twitter </li>
+            <li className="footer-list-item">Linkedin</li>
           </ul>
         </div>
         <div className="footer-divder mb-24"></div>
+
         <div className="flex space-between ">
-          <div className="footer-heading">
-            Dukaan 2020, All rights reserved.
-          </div>
-          <div className="footer-heading flex-center gap-8">
+          <p className="footer-heading">Dukaan 2020, All rights reserved.</p>
+          <p className="footer-heading flex-center gap-8">
             Made in
             <img src={india} alt="indian flag" />
-          </div>
+          </p>
         </div>
       </div>
     </>

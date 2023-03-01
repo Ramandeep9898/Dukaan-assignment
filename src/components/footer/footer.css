@@ -28,11 +28,13 @@
   font-family: galanogrotesque regular;
 }
 .footer-divder {
-  background-color: var(--border-input);
+  background-color: var(--grey-light);
   height: 1px;
   opacity: 0.2;
 }
 .counter {
+  font-size: 14px;
+  font-family: galanogrotesque medium;
   background-color: var(--white);
   color: var(--heading);
   padding: 3px 6px;

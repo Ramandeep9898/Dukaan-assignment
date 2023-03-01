@@ -1,6 +1,5 @@
 import "./product.css";
-import privacy from "../../assets/images/privacy.png";
-import productData from "./productData.json";
+import { productData } from "./productData";
 
 export const Product = () => {
   return (
@@ -13,7 +12,7 @@ export const Product = () => {
             return (
               <div key={product.id} className="product-card">
                 <div className="product-image mb-16">
-                  <img src={privacy} alt="privacy" />
+                  <img src={product.productImage} alt="feature-image" />
                 </div>
                 <div className="product-card-heading mb-4">
                   {product.productName}

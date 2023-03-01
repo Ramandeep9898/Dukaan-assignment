@@ -1,12 +1,19 @@
 import arrow from "../../../assets/images/arrow.png";
 import "./pagination.css";
 
-export const Pagination = ({ pagination, slogan, postPerPage }) => {
+export const Pagination = ({
+  pagination,
+  slogan,
+  postPerPage,
+  currentPage,
+  nextPage,
+}) => {
   const pageNumber = [];
 
   for (let i = 1; i <= Math.ceil(slogan.length / postPerPage); i++) {
     pageNumber.push(i);
   }
+
   return (
     <>
       <div className="flex pagination">
@@ -16,7 +23,11 @@ export const Pagination = ({ pagination, slogan, postPerPage }) => {
             return (
               <button
                 key={i}
-                className="btn-pagination"
+                className={
+                  number == currentPage
+                    ? "btn-pagination-active"
+                    : "btn-pagination"
+                }
                 onClick={() => pagination(number)}
               >
                 {number}
@@ -25,7 +36,7 @@ export const Pagination = ({ pagination, slogan, postPerPage }) => {
           })}
         </div>
         <div className="flex">
-          <button className="btn-pagination">
+          <button className="btn-pagination" onClick={nextPage}>
             Next <img src={arrow} alt="arrow" />
           </button>
         </div>
